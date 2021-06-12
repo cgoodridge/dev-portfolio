@@ -99,7 +99,7 @@
       },
       {
         "company": "Pellucid IT Inc",
-        "title": "Intern",
+        "title": "Software Engineering Intern",
         "years": "12.2017 - 06.2020",
         "mainTech": [
           "Android"
@@ -112,8 +112,19 @@
         ]
       },
       {
+        "company": "Barbados Hotel & Tourism Authority",
+        "title": "IT Intern",
+        "years": "06.2016 - 10.2016",
+        "mainTech": [
+          "Wordpress"
+        ],
+        "technologies": [
+          "Wordpress"
+        ]
+      },
+      {
         "company": "Pellucid IT Inc",
-        "title": "Intern",
+        "title": "Software Engineering Intern",
         "years": "12.2015 - 04.2016",
         "mainTech": [
           "Angular 4"

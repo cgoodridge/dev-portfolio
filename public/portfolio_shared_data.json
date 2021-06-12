@@ -1,20 +1,15 @@
 {
     "basic_info": {
-      "name": "Davina Griss",
-      "titles": [ "Front-end Developer", "Senior Data Engineer", "Dev Team lead", "Mobile App Developer" ],
+      "name": "Ché Goodridge",
+      "titles": [ "Front-end Developer", "UI/UX Designer", "Mobile App Developer" ],
       "social": [
         {
           "name": "github",
-          "url": "https://github.com",
+          "url": "https://github.com/cgoodridge?tab=repositories",
           "class": "fab fa-github"
-        },
-        {
-          "name": "instagram",
-          "url": "https://www.instagram.com",
-          "class": "fab fa-instagram"
         }
       ],
-      "image": "myProfile.jpg"
+      "image": "myProfile.png"
     },
     "skills": {
       "icons": [
@@ -29,13 +24,8 @@
           "level": "95"
         },
         {
-          "name": "Angular",
-          "class": "devicon-angularjs-plain",
-          "level": "80"
-        },
-        {
-          "name": "TypeScript",
-          "class": "devicon-typescript-plain",
+          "name": "Flutter",
+          "class": "devicon-flutter-plain",
           "level": "90"
         },
         {
@@ -44,8 +34,8 @@
           "level": "70"
         },
         {
-          "name": "Sass",
-          "class": "devicon-sass-original",
+          "name": "Figma",
+          "class": "devicon-figma-plain",
           "level": "75"
         },
         {
@@ -59,9 +49,24 @@
           "level": "65"
         },
         {
-          "name": "MySql",
-          "class": "devicon-mysql-plain",
+          "name": "Git",
+          "class": "devicon-git-plain",
+          "level": "65"
+        },
+        {
+          "name": "React",
+          "class": "devicon-react-plain",
           "level": "60"
+        },
+        {
+          "name": "Firebase",
+          "class": "devicon-firebase-plain",
+          "level": "70"
+        },
+        {
+          "name": "Photoshop",
+          "class": "devicon-photoshop-plain",
+          "level": "70"
         }
       ]
     }

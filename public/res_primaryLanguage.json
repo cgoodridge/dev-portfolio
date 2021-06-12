@@ -13,13 +13,13 @@
       {
         "title": "King Triton's Seafood Palace Website",
         "startDate": "2021",
-        "description": "The most expanded application I had opportunity to work with. I've learned many technologies and my code was reviewed by awesome curator. Application handles all adoption processess and allows to store all evidence on adopting animals from animal shelter.",
+        "description": "Based on school project where the objective was to create a fictional company and design a website to support it",
         "images": [
           "images/portfolio/king-triton/home.jpg",
           "images/portfolio/king-triton/menu.jpg",
           "images/portfolio/king-triton/reservation.jpg"
         ],
-        "url": "",
+        "url": "https://github.com/cgoodridge/kingtriton-react",
         "technologies": [
           {
             "class": "devicon-react-plain",
@@ -30,12 +30,12 @@
       {
         "title": "Project Chronos",
         "startDate": "2021",
-        "description": "Personal project for study subject. I was responsible for testing photography application that optimizes images with popular algorithms used by graphic editors like Pixlr or Adobe Photoshop. I've earned A grade :)",
+        "description": "Personal project where the goal is to create a time tracking app using flutter.",
         "images": [
           "images/portfolio/project-chronos/home.png",
           "images/portfolio/project-chronos/project_screen.png"
         ],
-        "url": "https://github.com",
+        "url": "",
         "technologies": [
           {
             "class": "devicon-flutter-plain",
@@ -46,12 +46,12 @@
       {
         "title": "IOS Reminders App ",
         "startDate": "2021",
-        "description": "One of the first apps I was working on my internship. I had to develop front-end implementation for app that shows 3D models of known buildings. This was also my first project in Angular framework. I've learned a lot!",
+        "description": "Small personal project created to learn the basics of flutter.",
         "images": [
           "images/portfolio/adventure/p1.jpg",
           "images/portfolio/adventure/p2.jpg"
         ],
-        "url": "https://github.com",
+        "url": "https://github.com/cgoodridge/reminders-app",
         "technologies": [
           {
             "class": "devicon-flutter-plain",
@@ -62,11 +62,11 @@
       {
         "title": "Omnitrix Database",
         "startDate": "2018",
-        "description": "Personal project for study subject. I was responsible for testing photography application that optimizes images with popular algorithms used by graphic editors like Pixlr or Adobe Photoshop. I've earned A grade :)",
+        "description": "Personal project intended to act as a catalog of aliens from the animated show Ben10, because of the nature of app it can as act as catalog of real world animals. This project was originally started in 2018 in vanilla Java in android studio, but was migrated to flutter in 2020.",
         "images": [
           "images/portfolio/omnitrix-database/home.png"
         ],
-        "url": "https://github.com",
+        "url": "https://github.com/cgoodridge/omnitrix-database-flutter",
         "technologies": [
           {
             "class": "devicon-flutter-plain",

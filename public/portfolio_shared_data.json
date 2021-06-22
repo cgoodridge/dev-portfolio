@@ -7,41 +7,27 @@
           "name": "github",
           "url": "https://github.com/cgoodridge?tab=repositories",
           "class": "fab fa-github"
+        },
+        {
+          "name": "instragram",
+          "url": "https://www.instagram.com/cg_uiux/",
+          "class": "fab fa-instagram"
         }
       ],
       "image": "myProfile.png"
     },
     "skills": {
       "icons": [
-        {
-          "name": "HTML 5",
-          "class": "devicon-html5-plain",
-          "level": "95"
-        },
-        {
-          "name": "CSS 3",
-          "class": "devicon-css3-plain",
-          "level": "95"
-        },
+        
         {
           "name": "Flutter",
           "class": "devicon-flutter-plain",
           "level": "90"
         },
         {
-          "name": "JavaScript",
-          "class": "devicon-javascript-plain",
-          "level": "70"
-        },
-        {
           "name": "Figma",
           "class": "devicon-figma-plain",
           "level": "75"
-        },
-        {
-          "name": "Bootstrap",
-          "class": "devicon-bootstrap-plain",
-          "level": "85"
         },
         {
           "name": "C#",

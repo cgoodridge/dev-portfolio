@@ -4,12 +4,33 @@
       "description": "My name is Ché, nice to meet you. I'm a software dev from Barbados, take a look below at some of the stuff i've made. :)",
       "section_name": {
         "about": "About me",
-        "projects": "Projects",
+        "dev_projects": "Development Projects",
+        "uiux_projects": "UI/UX Projects",
+        "game_projects": "Game Projects",
         "skills": "Skills",
         "experience": "Experience"
       }
     },
-    "projects": [
+    "dev_projects": [
+      {
+        "title": "Project Snap",
+        "startDate": "2021",
+        "description": "Personal project site for photography projects. Built on wordpress and hosted on Google Cloud Platform",
+        "images": [
+          "images/portfolio/omnitrix-database/home.png"
+        ],
+        "url": "http://35.199.152.82",
+        "technologies": [
+          {
+            "class": "devicon-wordpress-plain",
+            "name": "Wordpress"
+          },
+          {
+            "class": "devicon-googlecloud-plain",
+            "name": "Google Cloud Platform"
+          }
+        ]
+      },
       {
         "title": "King Triton's Seafood Palace Website",
         "startDate": "2021",
@@ -48,10 +69,11 @@
         "startDate": "2021",
         "description": "Small personal project created to learn the basics of flutter.",
         "images": [
-          "images/portfolio/adventure/p1.jpg",
-          "images/portfolio/adventure/p2.jpg"
+          "images/portfolio/reminders-app/reminders.png"
+          
         ],
         "url": "https://github.com/cgoodridge/reminders-app",
+        "demo": "https://codepen.io/CGoodridge/pen/vYxMyEd",
         "technologies": [
           {
             "class": "devicon-flutter-plain",
@@ -78,7 +100,46 @@
           }
         ]
       }
+      
      
+    ],
+    "uiux_projects": [
+      {
+        "title": "King Triton's Seafood UI Concept",
+        "startDate": "2021",
+        "description": "Based on school project where the objective was to create a fictional company and design a website to support it",
+        "images": [
+          "images/portfolio/king-triton/home.jpg",
+          "images/portfolio/king-triton/menu.jpg",
+          "images/portfolio/king-triton/reservation.jpg"
+        ],
+        "url": "https://www.instagram.com/p/CQUtdFWAMDJ/?utm_source=ig_web_copy_link",
+        "technologies": [
+          {
+            "class": "devicon-figma-plain",
+            "name": "Figma"
+          }
+        ]
+      }
+    ],
+    "game_projects": [
+      {
+        "title": "Pie Season",
+        "startDate": "2020",
+        "description": "Created for a harvest themed game jam, the goal of this game is to get the highest score you can by throwing an axe at pumpkins being launched in the air.",
+        "images": [
+          "images/portfolio/king-triton/home.jpg",
+          "images/portfolio/king-triton/menu.jpg",
+          "images/portfolio/king-triton/reservation.jpg"
+        ],
+        "url": "https://caverose.itch.io/pie-season",
+        "technologies": [
+          {
+            "class": "devicon-react-plain",
+            "name": "React"
+          }
+        ]
+      }
     ],
     "experience": [
       {

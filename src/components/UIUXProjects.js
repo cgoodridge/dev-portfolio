@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import ProjectDetailsModal from "./ProjectDetailsModal";
 
-class Projects extends Component {
+class UIUXProjects extends Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -17,7 +17,7 @@ class Projects extends Component {
 
     let detailsModalClose = () => this.setState({ detailsModalShow: false });
     if (this.props.resumeProjects && this.props.resumeBasicInfo) {
-      var sectionName = this.props.resumeBasicInfo.section_name.projects;
+      var sectionName = this.props.resumeBasicInfo.section_name.uiux_projects;
       var projects = this.props.resumeProjects.map(function (projects) {
         return (
           <div
@@ -67,4 +67,4 @@ class Projects extends Component {
   }
 }
 
-export default Projects;
+export default UIUXProjects;

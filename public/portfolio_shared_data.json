@@ -9,9 +9,14 @@
           "class": "fab fa-github"
         },
         {
-          "name": "instragram",
+          "name": "instagram",
           "url": "https://www.instagram.com/cg_uiux/",
           "class": "fab fa-instagram"
+        },
+        {
+          "name": "linkedin",
+          "url": "https://www.linkedin.com/in/cgoodridge-b2b29116b/",
+          "class": "fab fa-linkedin"
         }
       ],
       "image": "myProfile.png"

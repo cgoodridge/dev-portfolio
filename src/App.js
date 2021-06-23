@@ -87,7 +87,7 @@ class App extends Component {
           resumeBasicInfo={this.state.resumeData.basic_info}
         />
         <UIUXProjects
-          resumeProjects={this.state.resumeData.dev_projects}
+          resumeProjects={this.state.resumeData.uiux_projects}
           resumeBasicInfo={this.state.resumeData.basic_info}
         />
         <GameProjects

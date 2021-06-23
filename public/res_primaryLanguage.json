@@ -17,7 +17,7 @@
         "startDate": "2021",
         "description": "Personal project site for photography projects. Built on wordpress and hosted on Google Cloud Platform",
         "images": [
-          "images/portfolio/omnitrix-database/home.png"
+          "images/portfolio/photography/snap.png"
         ],
         "url": "http://35.199.152.82",
         "technologies": [
@@ -49,23 +49,7 @@
         ]
       },
       {
-        "title": "Project Chronos",
-        "startDate": "2021",
-        "description": "Personal project where the goal is to create a time tracking app using flutter.",
-        "images": [
-          "images/portfolio/project-chronos/home.png",
-          "images/portfolio/project-chronos/project_screen.png"
-        ],
-        "url": "",
-        "technologies": [
-          {
-            "class": "devicon-flutter-plain",
-            "name": "Flutter"
-          }
-        ]
-      },
-      {
-        "title": "IOS Reminders App ",
+        "title": "IOS Reminders App UI",
         "startDate": "2021",
         "description": "Small personal project created to learn the basics of flutter.",
         "images": [
@@ -73,7 +57,6 @@
           
         ],
         "url": "https://github.com/cgoodridge/reminders-app",
-        "demo": "https://codepen.io/CGoodridge/pen/vYxMyEd",
         "technologies": [
           {
             "class": "devicon-flutter-plain",
@@ -86,7 +69,7 @@
         "startDate": "2018",
         "description": "Personal project intended to act as a catalog of aliens from the animated show Ben10, because of the nature of app it can as act as catalog of real world animals. This project was originally started in 2018 in vanilla Java in android studio, but was migrated to flutter in 2020.",
         "images": [
-          "images/portfolio/omnitrix-database/home.png"
+          "images/portfolio/omnitrix-database/alien.png"
         ],
         "url": "https://github.com/cgoodridge/omnitrix-database-flutter",
         "technologies": [
@@ -120,6 +103,36 @@
             "name": "Figma"
           }
         ]
+      },
+      {
+        "title": "Project Chronos UI Concept",
+        "startDate": "2021",
+        "description": "Personal project where the goal is to create a time tracking app using flutter.",
+        "images": [
+          "images/portfolio/project-chronos/chronos.png"
+        ],
+        "url": "https://www.instagram.com/p/CQcavn9gNxK/?utm_source=ig_web_copy_link",
+        "technologies": [
+          {
+            "class": "devicon-figma-plain",
+            "name": "Figma"
+          }
+        ]
+      },
+      {
+        "title": "Credit Card Checkout Screen Concept",
+        "startDate": "2021",
+        "description": "Created as a part of a 30 day UI design challenge. Challenge #2",
+        "images": [
+          "images/portfolio/checkout/backdrop.png"
+        ],
+        "url": "https://www.instagram.com/p/CQaRkp2gQ5D/?utm_source=ig_web_copy_link",
+        "technologies": [
+          {
+            "class": "devicon-figma-plain",
+            "name": "Figma"
+          }
+        ]
       }
     ],
     "game_projects": [
@@ -128,9 +141,7 @@
         "startDate": "2020",
         "description": "Created for a harvest themed game jam, the goal of this game is to get the highest score you can by throwing an axe at pumpkins being launched in the air.",
         "images": [
-          "images/portfolio/king-triton/home.jpg",
-          "images/portfolio/king-triton/menu.jpg",
-          "images/portfolio/king-triton/reservation.jpg"
+          "images/portfolio/pie-season/start.png"
         ],
         "url": "https://caverose.itch.io/pie-season",
         "technologies": [

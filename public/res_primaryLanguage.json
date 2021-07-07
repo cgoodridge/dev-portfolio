@@ -133,6 +133,21 @@
             "name": "Figma"
           }
         ]
+      },
+      {
+        "title": "Time Variance Authority Website Concept",
+        "startDate": "2021",
+        "description": "Inspired by Marvel Studios' Loki",
+        "images": [
+          "images/portfolio/tva/main.png"
+        ],
+        "url": "https://www.instagram.com/p/CQ_yRomDdrY/?utm_source=ig_web_copy_link",
+        "technologies": [
+          {
+            "class": "devicon-figma-plain",
+            "name": "Figma"
+          }
+        ]
       }
     ],
     "game_projects": [
@@ -146,8 +161,12 @@
         "url": "https://caverose.itch.io/pie-season",
         "technologies": [
           {
-            "class": "devicon-react-plain",
-            "name": "React"
+            "class": "devicon-csharp-plain",
+            "name": "C Sharp"
+          },
+          {
+            "class": "",
+            "name": "Unity"
           }
         ]
       }

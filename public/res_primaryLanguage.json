@@ -19,7 +19,8 @@
         "images": [
           "images/portfolio/photography/snap.png"
         ],
-        "url": "http://35.199.152.82",
+        "url": "",
+        "url_demo": "http://35.199.152.82",
         "technologies": [
           {
             "class": "devicon-wordpress-plain",
@@ -39,10 +40,23 @@
           "images/portfolio/tva/main.png"
         ],
         "url": "https://github.com/cgoodridge/tva-app",
+        "url_demo": "http://ec2-3-137-178-160.us-east-2.compute.amazonaws.com/",
         "technologies": [
           {
             "class": "devicon-react-plain",
             "name": "React"
+          },
+          {
+            "class": "devicon-mongodb-plain",
+            "name": "MongoDB"
+          },
+          {
+            "class": "devicon-express-original",
+            "name": "Express"
+          },
+          {
+            "class": "devicon-amazonwebservices-original",
+            "name": "AWS"
           }
         ]
       },
@@ -56,6 +70,7 @@
           "images/portfolio/king-triton/reservation.jpg"
         ],
         "url": "https://github.com/cgoodridge/kingtriton-react",
+        "url_demo": "https://cgoodridge.github.io/kingtriton-react/",
         "technologies": [
           {
             "class": "devicon-react-plain",
@@ -72,6 +87,7 @@
           
         ],
         "url": "https://github.com/cgoodridge/reminders-app",
+        "url-demo": "",
         "technologies": [
           {
             "class": "devicon-flutter-plain",
@@ -87,6 +103,7 @@
           "images/portfolio/omnitrix-database/alien.png"
         ],
         "url": "https://github.com/cgoodridge/omnitrix-database-flutter",
+        "url-demo": "",
         "technologies": [
           {
             "class": "devicon-flutter-plain",

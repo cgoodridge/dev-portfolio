@@ -13,6 +13,22 @@
     },
     "dev_projects": [
       {
+        "title": "S.W.O.R.D. Threat Database",
+        "startDate": "2021",
+        "description": "A threat database app to catalog and track enhanced or otherwise potentially dangerous beings in the MCU",
+        "images": [
+          "images/portfolio/threat-database/threat_database.png"
+        ],
+        "url": "https://github.com/cgoodridge/superhero-registry",
+        "url_demo": "https://cgoodridge.github.io/superhero-registry/",
+        "technologies": [
+          {
+            "class": "devicon-react-plain",
+            "name": "React JS"
+          }
+        ]
+      },
+      {
         "title": "Project Snap",
         "startDate": "2021",
         "description": "Personal project site for photography projects. Built on wordpress and hosted on Google Cloud Platform",

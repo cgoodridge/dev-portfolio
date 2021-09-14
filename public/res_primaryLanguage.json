@@ -20,7 +20,7 @@
           "images/portfolio/threat-database/threat_database.png"
         ],
         "url": "https://github.com/cgoodridge/superhero-registry",
-        "url_demo": "https://cgoodridge.github.io/superhero-registry/",
+        "url_demo": "",
         "technologies": [
           {
             "class": "devicon-react-plain",
@@ -52,8 +52,8 @@
             "name": "Express"
           },
           {
-            "class": "devicon-amazonwebservices-original",
-            "name": "AWS"
+            "class": "devicon-heroku-plain",
+            "name": "Heroku"
           }
         ]
       },
@@ -72,23 +72,6 @@
           {
             "class": "devicon-react-plain",
             "name": "React"
-          }
-        ]
-      },
-      {
-        "title": "IOS Reminders App UI",
-        "startDate": "2021",
-        "description": "Small personal project created to learn the basics of flutter.",
-        "images": [
-          "images/portfolio/reminders-app/reminders.png"
-          
-        ],
-        "url": "https://github.com/cgoodridge/reminders-app",
-        "url-demo": "",
-        "technologies": [
-          {
-            "class": "devicon-flutter-plain",
-            "name": "Firebase"
           }
         ]
       },
@@ -212,8 +195,7 @@
           "Flutter",
           "Wordpress",
           "Firebase",
-          "Figma",
-          "Capacitor"
+          "Figma"
         ]
       },
       {

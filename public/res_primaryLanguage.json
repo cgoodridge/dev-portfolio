@@ -12,22 +12,7 @@
       }
     },
     "dev_projects": [
-      {
-        "title": "S.W.O.R.D. Threat Database",
-        "startDate": "2021",
-        "description": "A threat database app to catalog and track enhanced or otherwise potentially dangerous beings in the MCU",
-        "images": [
-          "images/portfolio/threat-database/threat_database.png"
-        ],
-        "url": "https://github.com/cgoodridge/superhero-registry",
-        "url_demo": "",
-        "technologies": [
-          {
-            "class": "devicon-react-plain",
-            "name": "React JS"
-          }
-        ]
-      },
+    
   
       {
         "title": "Time Variance Authority Website",

@@ -40,18 +40,13 @@
           "level": "65"
         },
         {
-          "name": "React",
+          "name": "React JS",
           "class": "devicon-react-plain",
           "level": "60"
         },
         {
           "name": "Firebase",
           "class": "devicon-firebase-plain",
-          "level": "70"
-        },
-        {
-          "name": "Photoshop",
-          "class": "devicon-photoshop-plain",
           "level": "70"
         }
       ]

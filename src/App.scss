@@ -132,7 +132,7 @@ header h1 {
 	height:100%;
 }
 
-.foto div {
+.foto > div:nth-of-type(1) {
 	background: #ffffff;
 	display: inline-block;
 	margin: 0 auto 5% auto;
@@ -158,7 +158,7 @@ header h1 {
 	top: 15px;
 }
 
-.foto div:hover {
+.foto > div:hover:nth-of-type(1) {
 	-webkit-transform: scale(1.01);
 	-moz-transform: scale(1.01);
 	transform: scale(1.01);
@@ -177,6 +177,9 @@ header h1 {
 	text-align: center;
 }
 
+a:hover {
+	color:whitesmoke !important;
+}
 
 .polaroid img {
 	display: block;
@@ -409,6 +412,15 @@ header h1 {
 	text-align: center;
 	position: relative;
 }
+.card-description{
+	color: white;
+	font-size: 12pt;
+	padding: 8px;
+}
+.list-inline:hover{
+	
+}
+
 
 footer {
 	background: #1F1F1F;

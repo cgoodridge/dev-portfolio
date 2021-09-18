@@ -1,7 +1,7 @@
 {
     "basic_info": {
       "description_header": "Hey there",
-      "description": "My name is Ché, nice to meet you. I'm a software dev from Barbados, take a look below at some of the stuff i've made. :)",
+      "description": "My name is Ché (pronounced Shay), nice to meet you. I'm a front-end developer(working towards full-stack), I also recently finished a Bachelor's in Computer Science. I work primarily in Flutter and React Js at the moment, so take a look below at some of the stuff I've made. :)",
       "section_name": {
         "about": "About me",
         "dev_projects": "Development Projects",
@@ -155,7 +155,8 @@
         "images": [
           "images/portfolio/pie-season/start.png"
         ],
-        "url": "https://caverose.itch.io/pie-season",
+        "url": "",
+        "url_demo":"https://caverose.itch.io/pie-season",
         "technologies": [
           {
             "class": "devicon-csharp-plain",

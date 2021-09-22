@@ -13,6 +13,24 @@
     },
     "dev_projects": [
     
+      {
+        "title": "King Triton's Seafood Palace Website",
+        "startDate": "2021",
+        "description": "Based on school project where the objective was to create a fictional company and design a website to support it.",
+        "images": [
+          "images/portfolio/king-triton/home.jpg",
+          "images/portfolio/king-triton/menu.jpg",
+          "images/portfolio/king-triton/reservation.jpg"
+        ],
+        "url": "https://github.com/cgoodridge/kingtriton-react",
+        "url_demo": "https://king-tritons-database.web.app/",
+        "technologies": [
+          {
+            "class": "devicon-react-plain",
+            "name": "React"
+          }
+        ]
+      },
   
       {
         "title": "Time Variance Authority Website",
@@ -42,24 +60,7 @@
           }
         ]
       },
-      {
-        "title": "King Triton's Seafood Palace Website",
-        "startDate": "2021",
-        "description": "Based on school project where the objective was to create a fictional company and design a website to support it.",
-        "images": [
-          "images/portfolio/king-triton/home.jpg",
-          "images/portfolio/king-triton/menu.jpg",
-          "images/portfolio/king-triton/reservation.jpg"
-        ],
-        "url": "https://github.com/cgoodridge/kingtriton-react",
-        "url_demo": "https://cgoodridge.github.io/kingtriton-react/",
-        "technologies": [
-          {
-            "class": "devicon-react-plain",
-            "name": "React"
-          }
-        ]
-      },
+  
       {
         "title": "Omnitrix Database",
         "startDate": "2018",

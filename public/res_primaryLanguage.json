@@ -40,7 +40,7 @@
           "images/portfolio/tva/main.png"
         ],
         "url": "https://github.com/cgoodridge/tva-app",
-        "url_demo": "",
+        "url_demo": "https://tva-app.herokuapp.com/",
         "technologies": [
           {
             "class": "devicon-react-plain",

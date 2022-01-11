@@ -48,6 +48,22 @@
           "name": "Firebase",
           "class": "devicon-firebase-plain",
           "level": "70"
+        },
+        {
+          "name": "PHP",
+          "class": "devicon-php-plain",
+          "level": "70"
+        },
+        {
+          "name": "MySQL",
+          "class": "devicon-mysql-plain",
+          "level": "70"
+        },
+        
+        {
+          "name": "MongoDB",
+          "class": "devicon-mongodb-plain",
+          "level": "70"
         }
       ]
     }

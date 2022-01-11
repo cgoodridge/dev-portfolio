@@ -32,7 +32,7 @@ class UIUXProjects extends Component {
   render() {
   
     if (this.props.resumeProjects && this.props.resumeBasicInfo) {
-      var sectionName = this.props.resumeBasicInfo.section_name.dev_projects;
+      var sectionName = this.props.resumeBasicInfo.section_name.uiux_projects;
       
       const technologies = this.props.resumeProjects.technologies;
       var title = this.props.resumeProjects.title;

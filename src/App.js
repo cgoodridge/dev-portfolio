@@ -9,6 +9,7 @@ import DevProjects from "./components/DevProjects";
 import UIUXProjects from "./components/UIUXProjects";
 import GameProjects from "./components/GameProjects";
 import Skills from "./components/Skills";
+import Contact from "./components/Contact";
 
 class App extends Component {
 
@@ -90,10 +91,10 @@ class App extends Component {
           resumeProjects={this.state.resumeData.uiux_projects}
           resumeBasicInfo={this.state.resumeData.basic_info}
         />
-        <GameProjects
+        {/* <GameProjects
           resumeProjects={this.state.resumeData.game_projects}
           resumeBasicInfo={this.state.resumeData.basic_info}
-        />
+        /> */}
         <Skills
           sharedSkills={this.state.sharedData.skills}
           resumeBasicInfo={this.state.resumeData.basic_info}
@@ -102,6 +103,7 @@ class App extends Component {
           resumeExperience={this.state.resumeData.experience}
           resumeBasicInfo={this.state.resumeData.basic_info}
         />
+        {/* <Contact /> */}
         <Footer sharedBasicInfo={this.state.sharedData.basic_info} />
       </div>
     );

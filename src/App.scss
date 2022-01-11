@@ -233,6 +233,23 @@ a:hover {
 #resume {
 	background: #efe1bd;
 }
+.freelance-links a{
+	color:white !important;
+	text-decoration: none;
+  }
+  .freelance-links a:link{
+	text-decoration: underline;
+  }
+  .freelance-links a:visited {
+	text-decoration: none;
+  }
+  .freelance-links a:hover {
+	  color: lawngreen !important;
+	text-decoration: none;
+  }
+  .freelance-links a:active {
+	text-decoration: none;
+  }
 
 .experience-icon {
 	font-size: 300%;
@@ -394,6 +411,18 @@ a:hover {
 	width: 100%;
 	overflow: hidden;
 	padding-bottom: 10%;
+}
+
+#contact {
+	background: #1F1F1F;
+	min-height: 200px;
+	width: 100%;
+	overflow: hidden;
+	padding-bottom: 10%;
+}
+
+.contact-form input{
+	color: white !important;
 }
 
 .section-title {

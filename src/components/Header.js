@@ -43,11 +43,12 @@ class Header extends Component {
               <span className="iconify header-icon" data-icon="la:laptop-code" data-inline="false"></span>
               <br/>
               <h1 className="mb-0">
-                <Typical steps={[name]} wrapper="p" />
+                <Typical  steps={[name]} wrapper="p" />
               </h1>
               <div className="title-container">
                 <HeaderTitleTypeAnimation />
               </div>
+              <h3 className="title-styles freelance-links" style={{color:'white'}}>Find me on <span style={{color:'#aed581'}}><a href="https://www.upwork.com/freelancers/~01818793238a5d5355" target='_blank'>Upwork</a></span> and <span style={{color:'#aed581'}}><a href="https://www.fiverr.com/cagoodridge" target="_blank">Fivver</a></span></h3>
             </div>
           </div>
         </div>

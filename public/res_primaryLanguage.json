@@ -1,232 +1,177 @@
 {
     "basic_info": {
-      "description_header": "Hey there",
-      "description": "My name is Ché (pronounced Shay), nice to meet you. I'm a front-end developer(working towards full-stack), I also recently finished a Bachelor's in Computer Science. I work primarily in Flutter and React Js at the moment, so take a look below at some of the stuff I've made. :)",
-      "section_name": {
-        "about": "About me",
-        "dev_projects": "Development Projects",
-        "uiux_projects": "UI/UX Projects",
-        "game_projects": "Game Projects",
-        "skills": "Skills",
-        "experience": "Experience",
-        "contact": "Get In Touch"
-      }
+        "description_header": "Hey there",
+        "description": "My name is Ché (pronounced Shay), nice to meet you. I'm a Full Stack developer with a primary focus on Web Apps. I work primarily in Flutter and React JS at the moment, so take a look below at some of the work i've done.",
+        "section_name": {
+            "about": "About me",
+            "dev_projects": "Development Projects",
+            "skills": "Skills",
+            "experience": "Experience",
+            "contact": "Get In Touch"
+        }
     },
     "dev_projects": [
-    
-      {
-        "title": "King Triton's Seafood Palace Website",
-        "startDate": "2021",
-        "description": "Based on school project where the objective was to create a fictional company and design a website to support it.",
-        "images": [
-          "images/portfolio/king-triton/home.jpg",
-          "images/portfolio/king-triton/menu.jpg",
-          "images/portfolio/king-triton/reservation.jpg"
-        ],
-        "url": "https://github.com/cgoodridge/kingtriton-react",
-        "url_demo": "https://king-tritons-database.web.app/",
-        "technologies": [
-          {
-            "class": "devicon-react-plain",
-            "name": "React"
-          },
-          {
-            "class": "devicon-firebase-plain",
-            "name": "Firebase"
-          }
-        ]
-      },
-  
-      {
-        "title": "Time Variance Authority Website",
-        "startDate": "2021",
-        "description": "Website for the Time Variance Authority. Inspired by Marvel Studios' Loki",
-        "images": [
-          "images/portfolio/tva/main.png"
-        ],
-        "url": "https://github.com/cgoodridge/tva-app",
-        "url_demo": "https://tva-app.herokuapp.com/",
-        "technologies": [
-          {
-            "class": "devicon-react-plain",
-            "name": "React"
-          },
-          {
-            "class": "devicon-mongodb-plain",
-            "name": "MongoDB"
-          },
-          {
-            "class": "devicon-express-original",
-            "name": "Express"
-          },
-          {
-            "class": "devicon-heroku-plain",
-            "name": "Heroku"
-          }
-        ]
-      },
-  
-      {
-        "title": "Omnitrix Database",
-        "startDate": "2018",
-        "description": "Personal project intended to act as a catalog of aliens from the animated show Ben10, because of the nature of app it can as act as catalog of real world animals. This project was originally started in 2018 in vanilla Java in android studio, but was migrated to flutter in 2020.",
-        "images": [
-          "images/portfolio/omnitrix-database/alien.png"
-        ],
-        "url": "https://github.com/cgoodridge/omnitrix-database-flutter",
-        "url-demo": "",
-        "technologies": [
-          {
-            "class": "devicon-flutter-plain",
-            "name": "Flutter"
-          },
-          {
-            "class": "devicon-firebase-plain",
-            "name": "Firebase"
-          }
-        ]
-      }
-      
-     
-    ],
-    "uiux_projects": [
-      {
-        "title": "King Triton's Seafood UI Concept",
-        "startDate": "2021",
-        "description": "Based on school project where the objective was to create a fictional company and design a website to support it",
-        "images": [
-          "images/portfolio/king-triton/home.jpg",
-          "images/portfolio/king-triton/menu.jpg",
-          "images/portfolio/king-triton/reservation.jpg"
-        ],
-        "url": "https://www.instagram.com/p/CQUtdFWAMDJ/?utm_source=ig_web_copy_link",
-        "technologies": [
-          {
-            "class": "devicon-figma-plain",
-            "name": "Figma"
-          }
-        ]
-      },
-      {
-        "title": "Project Chronos UI Concept",
-        "startDate": "2021",
-        "description": "Personal project where the goal is to create a time tracking app using flutter.",
-        "images": [
-          "images/portfolio/project-chronos/chronos.png"
-        ],
-        "url": "https://www.instagram.com/p/CQcavn9gNxK/?utm_source=ig_web_copy_link",
-        "technologies": [
-          {
-            "class": "devicon-figma-plain",
-            "name": "Figma"
-          }
-        ]
-      },
-      {
-        "title": "Credit Card Checkout Screen Concept",
-        "startDate": "2021",
-        "description": "Created as a part of a 30 day UI design challenge. Challenge #2",
-        "images": [
-          "images/portfolio/checkout/backdrop.png"
-        ],
-        "url": "https://www.instagram.com/p/CQaRkp2gQ5D/?utm_source=ig_web_copy_link",
-        "technologies": [
-          {
-            "class": "devicon-figma-plain",
-            "name": "Figma"
-          }
-        ]
-      },
-      {
-        "title": "Time Variance Authority Website Concept",
-        "startDate": "2021",
-        "description": "Inspired by Marvel Studios' Loki",
-        "images": [
-          "images/portfolio/tva/main.png"
-        ],
-        "url": "https://www.instagram.com/p/CQ_yRomDdrY/?utm_source=ig_web_copy_link",
-        "technologies": [
-          {
-            "class": "devicon-figma-plain",
-            "name": "Figma"
-          }
-        ]
-      }
-    ],
-    "game_projects": [
-      {
-        "title": "Pie Season",
-        "startDate": "2020",
-        "description": "Created for a harvest themed game jam, the goal of this game is to get the highest score you can by throwing an axe at pumpkins being launched in the air.",
-        "images": [
-          "images/portfolio/pie-season/start.png"
-        ],
-        "url": "",
-        "url_demo":"https://caverose.itch.io/pie-season",
-        "technologies": [
-          {
-            "class": "devicon-csharp-plain",
-            "name": "C Sharp"
-          },
-          {
-            "class": "",
-            "name": "Unity"
-          }
-        ]
-      }
+        {
+            "title": "King Triton's Seafood Palace Website",
+            "startDate": "2021",
+            "description": "Based on school project where the objective was to create a fictional company and design a website to support it.",
+            "images": [
+                "images/portfolio/king-triton/home.jpg",
+                "images/portfolio/king-triton/menu.jpg",
+                "images/portfolio/king-triton/reservation.jpg"
+            ],
+            "url": "https://github.com/cgoodridge/kingtriton-react",
+            "url_demo": "https://king-tritons-database.web.app/",
+            "technologies": [
+                {
+                    "class": "devicon-react-plain",
+                    "name": "React"
+                },
+                {
+                    "class": "devicon-firebase-plain",
+                    "name": "Firebase"
+                }
+            ]
+        },
+        {
+            "title": "Time Variance Authority Website",
+            "startDate": "2021",
+            "description": "Website for the Time Variance Authority. Inspired by Marvel Studios' Loki",
+            "images": [
+                "images/portfolio/tva/main.png"
+            ],
+            "url": "https://github.com/cgoodridge/tva-app",
+            "url_demo": "https://tva.web.app/",
+            "technologies": [
+                {
+                    "class": "devicon-react-plain",
+                    "name": "React"
+                },
+                {
+                    "class": "devicon-firebase-plain",
+                    "name": "Firebase"
+                }
+            ]
+        },
+        {
+            "title": "Project Sanctuary",
+            "startDate": "2018",
+            "description": "A Personal project intended to act as a catalog of different species of animals on earth. This project was originally started in 2018 in vanilla Java in android studio, as an app to catalog aliens from the Cartoon Network show \"Ben 10\" but was migrated to flutter in 2020 and altered to use real animals.",
+            "images": [
+                "images/portfolio/sanctuary/sanctuary.png"
+            ],
+            "url": "https://github.com/cgoodridge/project-sanctuary-react",
+            "url_demo": "https://natgeo-database.web.app",
+            "technologies": [
+                {
+                    "class": "devicon-react-plain",
+                    "name": "React"
+                },
+                {
+                    "class": "devicon-firebase-plain",
+                    "name": "Firebase"
+                },
+                {
+                    "class": "devicon-flutter-plain",
+                    "name": "Flutter"
+                }
+            ]
+        }
     ],
     "experience": [
-      {
-        "company": "Pellucid IT Inc",
-        "title": "Software Development Engineer | UI/UX Designer",
-        "years": "12.2020 - present",
-        "mainTech": [
-          "Flutter"
-        ],
-        "technologies": [
-          "Flutter",
-          "Wordpress",
-          "Firebase",
-          "Figma"
-        ]
-      },
-      {
-        "company": "Pellucid IT Inc",
-        "title": "Software Engineering Intern",
-        "years": "12.2017 - 06.2020",
-        "mainTech": [
-          "Android"
-        ],
-        "technologies": [
-          "Wordpress",
-          "Android",
-          "Java",
-          "Express JS"
-        ]
-      },
-      {
-        "company": "Barbados Hotel & Tourism Authority",
-        "title": "IT Intern",
-        "years": "06.2016 - 10.2016",
-        "mainTech": [
-          "Wordpress"
-        ],
-        "technologies": [
-          "Wordpress"
-        ]
-      },
-      {
-        "company": "Pellucid IT Inc",
-        "title": "Software Engineering Intern",
-        "years": "12.2015 - 04.2016",
-        "mainTech": [
-          "Angular 4"
-        ],
-        "technologies": [
-          "Wordpress",
-          "Laravel",
-          "Android"
-        ]
-      }
+        {
+            "company": "Platinum System CR Corp",
+            "title": "Web Developer",
+            "years": "07.2023 - Present",
+            "mainTech": [
+                "Sncode"
+            ],
+            "technologies": [
+                "Extenso",
+                "HTML",
+                "Javascript",
+                "SQL"
+            ]
+        },
+        {
+            "company": "Pellucid IT Inc",
+            "title": "Software Development Engineer | UI/UX Designer",
+            "years": "11.2022 - 07.2023",
+            "mainTech": [
+                "Drupal"
+            ],
+            "technologies": [
+                "Flutter",
+                "Wordpress",
+                "Firebase",
+                "Figma"
+            ]
+        },
+        {
+            "company": "Get Healthy Inc",
+            "title": "Web Developer | Graphic Designer",
+            "years": "12.2021 - 08.2022",
+            "mainTech": [
+                "Wordpress"
+            ],
+            "technologies": [
+                "Wordpress",
+                "Dreamhost",
+                "GoDaddy",
+                "Figma"
+            ]
+        },
+        {
+            "company": "Pellucid IT Inc",
+            "title": "Software Development Engineer | UI/UX Designer",
+            "years": "12.2020 - 11.2022",
+            "mainTech": [
+                "Flutter"
+            ],
+            "technologies": [
+                "Flutter",
+                "Wordpress",
+                "Firebase",
+                "Figma"
+            ]
+        },
+        {
+            "company": "Pellucid IT Inc",
+            "title": "Software Engineering Intern",
+            "years": "12.2017 - 06.2020",
+            "mainTech": [
+                "Android"
+            ],
+            "technologies": [
+                "Wordpress",
+                "Android",
+                "Java",
+                "Express JS"
+            ]
+        },
+        {
+            "company": "Barbados Hotel & Tourism Authority",
+            "title": "IT Intern",
+            "years": "06.2016 - 10.2016",
+            "mainTech": [
+                "Wordpress"
+            ],
+            "technologies": [
+                "Wordpress"
+            ]
+        },
+        {
+            "company": "Pellucid IT Inc",
+            "title": "Software Engineering Intern",
+            "years": "12.2015 - 04.2016",
+            "mainTech": [
+                "Angular 4"
+            ],
+            "technologies": [
+                "Wordpress",
+                "Laravel",
+                "Android"
+            ]
+        }
     ]
-  }
+}

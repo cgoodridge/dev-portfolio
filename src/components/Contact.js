@@ -2,11 +2,8 @@ import React from 'react';
 import TextField from '@mui/material/TextField';
 import { Box } from '@mui/system';
 
-const Contact = (props) => {
+const Contact = () => {
 
-    
-     
-        
     return (
         <section id="contact">
         <div className="col-md-12">
@@ -14,7 +11,7 @@ const Contact = (props) => {
             <span>Get In Touch</span>
           </h1>
           <div className="">
-            
+
             <div className="center contact-form">
                 <Box sx={{width: '60%'}}>
                     <div>

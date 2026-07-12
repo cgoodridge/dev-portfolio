@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import ProjectDetailsModal from "./ProjectDetailsModal";
-import { ThemeProvider, createTheme } from '@material-ui/core/styles';
-import Button from '@material-ui/core/Button';
+import { ThemeProvider, createTheme } from '@mui/material/styles';
+import Button from '@mui/material/Button';
 
 
 const theme = createTheme({
@@ -31,10 +31,10 @@ class DevProjects extends Component {
   }
 
   render() {
-  
+
     if (this.props.resumeProjects && this.props.resumeBasicInfo) {
       var sectionName = this.props.resumeBasicInfo.section_name.dev_projects;
-      
+
       const technologies = this.props.resumeProjects.technologies;
       var title = this.props.resumeProjects.title;
       var description = this.props.resumeProjects.description;
@@ -56,7 +56,7 @@ class DevProjects extends Component {
             </li>
           );
         });
-  
+
         }
       var projects = this.props.resumeProjects.map(function (projects) {
         return (
@@ -83,23 +83,23 @@ class DevProjects extends Component {
                   <p className="card-description">{projects.description}</p>
                   <div className="col-md-12 text-center">
                     <ul className="list-inline mx-auto">
-                      {
+                    {
                         projects.technologies.map((icons, i) => {
-                          return (
+                            return (
                             <li className="list-inline-item mx-3" key={i}>
-                              <span>
+                                <span>
                                 <div className="text-center">
-                                  <i className={icons.class} style={{ fontSize: "300%", color: 'whitesmoke' }}>
+                                    <i className={icons.class} style={{ fontSize: "300%", color: 'whitesmoke' }}>
                                     <p className="text-center" style={{ fontSize: "30%" }}>
-                                      {icons.name}
+                                        {icons.name}
                                     </p>
-                                  </i>
+                                    </i>
                                 </div>
-                              </span>
+                                </span>
                             </li>
-                          );
+                            );
                         })
-                      }
+                    }
                     </ul>
                     <ThemeProvider theme={theme} >
                       {projects.url ? (
@@ -113,7 +113,7 @@ class DevProjects extends Component {
                       </Button>
                       ) : null}
                     </ThemeProvider>
-                  
+
                   </div>
                 </div>
               </div>

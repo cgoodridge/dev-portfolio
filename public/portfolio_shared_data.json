@@ -1,7 +1,7 @@
 {
     "basic_info": {
       "name": "Ché Goodridge",
-      "titles": [ "Front-end Developer", "UI/UX Designer", "Mobile App Developer" ],
+      "titles": [ "Full Stack Developer", "Mobile App Developer" ],
       "social": [
         {
           "name": "github",
@@ -23,16 +23,11 @@
     },
     "skills": {
       "icons": [
-        
+
         {
           "name": "Flutter",
           "class": "devicon-flutter-plain",
           "level": "90"
-        },
-        {
-          "name": "Figma",
-          "class": "devicon-figma-plain",
-          "level": "75"
         },
         {
           "name": "Git",
@@ -50,16 +45,11 @@
           "level": "70"
         },
         {
-          "name": "PHP",
-          "class": "devicon-php-plain",
-          "level": "70"
-        },
-        {
           "name": "MySQL",
           "class": "devicon-mysql-plain",
           "level": "70"
         },
-        
+
         {
           "name": "MongoDB",
           "class": "devicon-mongodb-plain",

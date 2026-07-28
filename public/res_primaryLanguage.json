@@ -4,7 +4,8 @@
         "description": "My name is Ché (pronounced Shay), nice to meet you. I'm a Full Stack developer with a primary focus on Web Apps. I work primarily in Flutter and React JS at the moment, so take a look below at some of the work i've done.",
         "section_name": {
             "about": "About me",
-            "dev_projects": "Development Projects",
+            "dev_projects": "Personal Projects",
+            "work_projects": "Work Projects",
             "skills": "Skills",
             "experience": "Experience",
             "contact": "Get In Touch"
@@ -12,7 +13,7 @@
     },
     "dev_projects": [
         {
-            "title": "King Triton's Seafood Palace Website",
+            "title": "King Triton's Seafood Palace Website(WIP)",
             "startDate": "2021",
             "description": "Based on school project where the objective was to create a fictional company and design a website to support it.",
             "images": [
@@ -21,7 +22,7 @@
                 "images/portfolio/king-triton/reservation.jpg"
             ],
             "url": "https://github.com/cgoodridge/kingtriton-react",
-            "url_demo": "https://king-tritons-database.web.app/",
+            "url_demo": "https://kingtriton.cgoodridge.com/",
             "technologies": [
                 {
                     "class": "devicon-react-plain",
@@ -34,7 +35,7 @@
             ]
         },
         {
-            "title": "Time Variance Authority Website",
+            "title": "Time Variance Authority Website(WIP)",
             "startDate": "2021",
             "description": "Website for the Time Variance Authority. Inspired by Marvel Studios' Loki",
             "images": [
@@ -54,9 +55,9 @@
             ]
         },
         {
-            "title": "Project Sanctuary",
+            "title": "Project: Sanctuary(WIP)",
             "startDate": "2018",
-            "description": "A Personal project intended to act as a catalog of different species of animals on earth. This project was originally started in 2018 in vanilla Java in android studio, as an app to catalog aliens from the Cartoon Network show \"Ben 10\" but was migrated to flutter in 2020 and altered to use real animals.",
+            "description": "A Personal project intended to act as a catalog of different species of animals on earth.",
             "images": [
                 "images/portfolio/sanctuary/sanctuary.png"
             ],
@@ -78,11 +79,33 @@
             ]
         }
     ],
+    "work_projects": [
+        {
+            "title": "The CPAG(Caribbean Protected Areas Gateway)",
+            "description": "'The passionate team at the Caribbean Protected Areas Gateway is wholeheartedly dedicated to our mission of strengthening biodiversity conservation policies and promoting the long-term preservation and sustainable use of natural resources within protected areas and the surrounding communities in the Caribbean region.'",
+            "association": "This is a project I had the pleasure of working on during my time with Pellucid IT Inc.(2022-2023)",
+            "startDate": "2022-2023",
+            "images": [
+                "images/portfolio/thecpag/cpag_home.png"
+            ],
+            "url": "https://thecpag.org/team"
+        },
+        {
+            "title": "Platinum 2.0",
+            "description": "'With Platinum's chiropractic software, chiropractors only need one screen for all notes. That includes X-rays, all SOAP history, spinal levels, future appointments, an easy note taking system, and patient education. Takes notes quickly and efficiently.'",
+            "association": "During my time at Platinum System(2023-2026), I worked on a team of developers from Canada and Barbados on this application",
+            "startDate": "2023-2026",
+            "images": [
+                "images/portfolio/platinum_system/platinum.png"
+            ],
+            "url": "https://www.youtube.com/watch?v=80cqRQuSPwg&t=23s"
+        }
+    ],
     "experience": [
         {
             "company": "Platinum System CR Corp",
             "title": "Web Developer",
-            "years": "07.2023 - Present",
+            "years": "07.2023 - 07.2026",
             "mainTech": [
                 "Sncode"
             ],
@@ -102,6 +125,7 @@
             ],
             "technologies": [
                 "Flutter",
+                "React",
                 "Wordpress",
                 "Firebase",
                 "Figma"

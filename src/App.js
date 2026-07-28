@@ -6,6 +6,7 @@ import Footer from "./components/Footer";
 import About from "./components/About";
 import Experience from "./components/Experience";
 import DevProjects from "./components/DevProjects";
+import WorkProjects from "./components/WorkProjects";
 import Skills from "./components/Skills";
 import Contact from "./components/Contact";
 
@@ -87,8 +88,12 @@ class App extends Component {
           resumeBasicInfo={this.state.resumeData.basic_info}
           sharedBasicInfo={this.state.sharedData.basic_info}
         />
+        <WorkProjects
+          resumeProjects={this.state?.resumeData?.work_projects}
+          resumeBasicInfo={this.state?.resumeData?.basic_info}
+        />
         <DevProjects
-          resumeProjects={this.state.resumeData.dev_projects}
+          resumeProjects={this.state.resumeData?.dev_projects}
           resumeBasicInfo={this.state.resumeData.basic_info}
         />
         <Skills

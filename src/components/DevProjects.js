@@ -1,8 +1,6 @@
 import React, { Component } from "react";
-import ProjectDetailsModal from "./ProjectDetailsModal";
 import { ThemeProvider, createTheme } from '@mui/material/styles';
 import Button from '@mui/material/Button';
-
 
 const theme = createTheme({
   palette: {

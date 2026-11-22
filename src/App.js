@@ -8,7 +8,6 @@ import Experience from "./components/Experience";
 import DevProjects from "./components/DevProjects";
 import WorkProjects from "./components/WorkProjects";
 import Skills from "./components/Skills";
-import Contact from "./components/Contact";
 
 class App extends Component {
 
@@ -26,14 +25,6 @@ class App extends Component {
     document.documentElement.lang = pickedLanguage;
     var resumePath = `res_primaryLanguage.json`;
     this.loadResumeFromPath(resumePath);
-  }
-
-  swapCurrentlyActiveLanguage(oppositeLangIconId) {
-    var pickedLangIconId =
-      oppositeLangIconId === window.$primaryLanguageIconId
-        ? window.$secondaryLanguageIconId
-        : window.$primaryLanguageIconId;
-
   }
 
   componentDidMount() {

@@ -31,7 +31,7 @@ class WorkProjects extends Component {
   render() {
 
     if (this.props.resumeProjects && this.props.resumeBasicInfo) {
-      var sectionName = this.props.resumeBasicInfo.section_name.work_projects;
+      var sectionName = this.props.resumeBasicInfo.section_name.professional_projects;
 
       const technologies = this.props.resumeProjects.technologies;
       var title = this.props.resumeProjects.title;
@@ -70,7 +70,7 @@ class WorkProjects extends Component {
                     src={projects.images[0]}
                     alt="projectImages"
                     height="230"
-                    style={{marginBottom: 0, paddingBottom: 0, position: 'relative'}}
+                    className="project-image"
                   />
                   <span className="project-date">{projects.startDate}</span>
                   <br />

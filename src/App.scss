@@ -23,6 +23,13 @@ html {
 	font-size: 250%;
 }
 
+.project-image {
+    width: 100%; /* Adjust to fit the container */
+    height: 350px !important; /* Set a consistent height */
+    object-fit: cover; /* Ensures the image fills the space while maintaining aspect ratio */
+    border-radius: 8px; /* Optional: Add rounded corners */
+  }
+
 .header-icon {
 	height: 150px;
 	width: 150px;

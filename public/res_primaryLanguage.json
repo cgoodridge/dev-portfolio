@@ -5,13 +5,27 @@
         "section_name": {
             "about": "About me",
             "dev_projects": "Personal Projects",
-            "work_projects": "Work Projects",
+            "professional_projects": "Professional Projects",
             "skills": "Skills",
             "experience": "Experience",
             "contact": "Get In Touch"
         }
     },
     "dev_projects": [
+        {
+            "title": "Personal Budgeting App(WIP)",
+            "startDate": "2026",
+            "description": "A personal finance app, coming soon to the Google Play Store. And later to the Apple App Store. This app is intended to help users manage their finances and keep track of their spending habits.",
+            "images": [
+                "images/portfolio/budget-app/dashboard_screen.png"
+            ],
+            "technologies": [
+                {
+                    "class": "devicon-flutter-plain",
+                    "name": "Flutter"
+                }
+            ]
+        },
         {
             "title": "King Triton's Seafood Palace Website(WIP)",
             "startDate": "2021",
@@ -35,39 +49,15 @@
             ]
         },
         {
-            "title": "Time Variance Authority Website(WIP)",
-            "startDate": "2021",
-            "description": "Website for the Time Variance Authority. Inspired by Marvel Studios' Loki",
-            "images": [
-                "images/portfolio/tva/main.png"
-            ],
-            "url": "https://github.com/cgoodridge/tva-app",
-            "url_demo": "https://tva.web.app/",
-            "technologies": [
-                {
-                    "class": "devicon-react-plain",
-                    "name": "React"
-                },
-                {
-                    "class": "devicon-firebase-plain",
-                    "name": "Firebase"
-                }
-            ]
-        },
-        {
-            "title": "Project: Sanctuary(WIP)",
+            "title": "Project: Sanctuary V2(WIP)",
             "startDate": "2018",
-            "description": "A Personal project intended to act as a catalog of different species of animals on earth.",
+            "description": "A Personal project intended to act as a catalog of different species of animals on earth. UPDATED(2026) This is an updated of the project still build in Flutter, but with an updated UI",
             "images": [
                 "images/portfolio/sanctuary/sanctuary.png"
             ],
-            "url": "https://github.com/cgoodridge/project-sanctuary-react",
-            "url_demo": "https://natgeo-database.web.app",
+            "url": "https://github.com/cgoodridge/project_sanctuaryv2",
+            "url_demo": "https://projectsanctuaryv2.web.app/",
             "technologies": [
-                {
-                    "class": "devicon-react-plain",
-                    "name": "React"
-                },
                 {
                     "class": "devicon-firebase-plain",
                     "name": "Firebase"
@@ -77,9 +67,33 @@
                     "name": "Flutter"
                 }
             ]
+        },
+        {
+            "title": "Game Night Platform",
+            "startDate": "2026",
+            "description": "A Personal project built to use on my own Game Nights with friends. It behaves as a Jeopardy like game because we found existing platforms didn't quite work how we wanted.",
+            "images": [
+                "images/portfolio/game-night/start_screen.png"
+            ],
+            "url": "https://github.com/cgoodridge/jeopardy-clone",
+            "url_demo": "https://quiz-night-platform.web.app/",
+            "technologies": [
+                {
+                    "class": "devicon-firebase-plain",
+                    "name": "Firebase"
+                },
+                {
+                    "class": "devicon-react-plain",
+                    "name": "React"
+                },
+                {
+                    "class": "devicon-socketio-original",
+                    "name": "Socket IO"
+                }
+            ]
         }
     ],
-    "work_projects": [
+    "professional_projects": [
         {
             "title": "The CPAG(Caribbean Protected Areas Gateway)",
             "description": "'The passionate team at the Caribbean Protected Areas Gateway is wholeheartedly dedicated to our mission of strengthening biodiversity conservation policies and promoting the long-term preservation and sustainable use of natural resources within protected areas and the surrounding communities in the Caribbean region.'",

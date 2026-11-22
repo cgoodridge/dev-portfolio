@@ -89,7 +89,7 @@ class App extends Component {
           sharedBasicInfo={this.state.sharedData.basic_info}
         />
         <WorkProjects
-          resumeProjects={this.state?.resumeData?.work_projects}
+          resumeProjects={this.state?.resumeData?.professional_projects}
           resumeBasicInfo={this.state?.resumeData?.basic_info}
         />
         <DevProjects

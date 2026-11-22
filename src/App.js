@@ -11,7 +11,7 @@ import Skills from "./components/Skills";
 
 class App extends Component {
 
-  constructor(props) {
+  constructor() {
     super();
     this.state = {
       foo: "bar",
@@ -20,19 +20,14 @@ class App extends Component {
     };
   }
 
-  applyPickedLanguage(pickedLanguage, oppositeLangIconId) {
-    this.swapCurrentlyActiveLanguage(oppositeLangIconId);
-    document.documentElement.lang = pickedLanguage;
+  applyPickedLanguage() {
     var resumePath = `res_primaryLanguage.json`;
     this.loadResumeFromPath(resumePath);
   }
 
   componentDidMount() {
     this.loadSharedData();
-    this.applyPickedLanguage(
-      window.$primaryLanguage,
-      window.$secondaryLanguageIconId
-    );
+    this.applyPickedLanguage();
   }
 
   loadResumeFromPath(path) {
@@ -43,7 +38,7 @@ class App extends Component {
       success: function (data) {
         this.setState({ resumeData: data });
       }.bind(this),
-      error: function (xhr, status, err) {
+      error: function (err) {
         alert(err);
       },
     });
@@ -59,7 +54,7 @@ class App extends Component {
         this.setState({ sharedData: data });
         document.title = `${this.state.sharedData.basic_info?.name}`;
       }.bind(this),
-      error: function (xhr, status, err) {
+      error: function (err) {
         alert(err);
       },
     });

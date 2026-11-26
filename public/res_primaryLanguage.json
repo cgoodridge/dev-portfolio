@@ -75,8 +75,6 @@
             "images": [
                 "images/portfolio/game-night/start_screen.png"
             ],
-            "url": "https://github.com/cgoodridge/jeopardy-clone",
-            "url_demo": "https://quiz-night-platform.web.app/",
             "technologies": [
                 {
                     "class": "devicon-firebase-plain",
